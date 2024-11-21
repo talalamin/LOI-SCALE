@@ -129,7 +129,6 @@ python ~/tools/ASE_ScRNA_Breast/data_breastcancer_fastq/scripts/05_CNV.py
 echo "CNV information from reference paper is merged...:-)"
 
 #Step 6.5: Add cells annotation by checking RGIDs
-#Note to self: there is an alternative version for code so please double check
 echo "Adding cell annotations by matching RGIDs..."
 python ~/tools/ASE_ScRNA_Breast/data_breastcancer_fastq/scripts/06_RGID_cell.py
 echo "Cell annotations are complete :-)"
